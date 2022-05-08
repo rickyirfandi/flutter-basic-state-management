@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '1-set-state/set-state.dart';
 import '2-change-notifier/change-notifier.dart';
 import '3-stream-builder/stream-builder.dart';
+import '4-value-notifier/value-notifier.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       //home : SetState(),
       //home : WithChangeNotifier(),
-      home: WithStreamBuilder(),
+      //home : WithStreamBuilder(),
+      home: WithValueNotifier(),
     );
   }
 }
